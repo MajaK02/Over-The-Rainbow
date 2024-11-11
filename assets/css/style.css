@@ -11,12 +11,12 @@
 
 /* CSS variables */
 :root {
-    --primary-font: "Roboto Serif", "Montserrat", sans-serif;
-    --secondary-font: "Merriweather", sans-serif;
-    --text-color: #333333; /* Dark grey */
-    --primary-color: #7a9fc2; /* Light Blue*/
-    --secondary-color: #5ac18e; /* Warm green*/
-  }
+  --primary-font: "Roboto Serif", "Montserrat", sans-serif;
+  --secondary-font: "Merriweather", sans-serif;
+  --text-color: #333333; /* Dark grey */
+  --primary-color: #7a9fc2; /* Light Blue*/
+  --secondary-color: #5ac18e; /* Warm green*/
+}
 
 /* General styling */
 
@@ -36,11 +36,14 @@ header {
   z-index: 99; /* Higher z-index ensures it remians above any other element when scrolling/ also with a z-index value*/
   width: 100%;
   box-shadow: 0 2px 2px darkolivegreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 header a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 h1 {
@@ -48,16 +51,15 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--text-color);
-
 }
 
 #navbar {
-    letter-spacing: 4px;
-    font-size: 110%;
+  letter-spacing: 4px;
+  font-size: 110%;
 }
 
 .active {
-    border-bottom: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--text-color);
 }
 
 main {
@@ -68,4 +70,17 @@ main {
 
 footer {
   background-color: #5ac18e;
+  #social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: var(--text-color);
+}
 }
