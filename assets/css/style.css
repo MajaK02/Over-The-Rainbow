@@ -68,6 +68,22 @@ main {
   flex: 1 0 auto;
 }
 
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 50%;
+    background: url("../images/card5.jpeg") no-repeat center center/cover;
+    margin: 0 auto; /* Center by default */
+}
+
+/* Align hero image to the right on larger screens */
+@media (min-width: 768px) {
+    #hero {
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
 footer {
   background-color: #5ac18e;
   #social-networks {
