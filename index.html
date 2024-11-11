@@ -26,7 +26,8 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-   <body>
+  <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
+   <body class="d-flex flex-column min-vh-100">
     <header>
       <a href="index.html"><h1>Over The Rainbow</h1>
       </a>
@@ -89,16 +90,18 @@
               </p>
             </div>
             <div class="col-12 col-xl-6">
+            </div>
+          </div>
       </section>
   </main>
 
-
-
-  
-
     <!-- Footer -->
-    <footer>
-      <ul id="social-networks">
+     <!-- mt-auto added to push footer to the bottom of the page -->
+    <footer class="mt-auto">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12"></div>
+        <ul id="social-networks">
           <li>
               <a href="https://www.facebook.com/" target="_blank" rel="noopener"
                   aria-label="Visit our Facebook page (opens in a new tab)">
@@ -115,16 +118,12 @@
                   <i class="fa-brands fa-instagram"></i></a>
           </li>
       </ul>
+    </div>
+      
   </footer>
 
   <!-- Font Awesome kit -->
   <script src="https://kit.fontawesome.com/f4d3164857.js" crossorigin="anonymous"></script>
-
-   </footer>
-
-
-
-  </body>
 
     <!-- Bootstrap JS -->
     <script
@@ -132,5 +131,6 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"
   ></script>
+
   </body>
 </html>
