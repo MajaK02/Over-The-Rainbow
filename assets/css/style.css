@@ -1,2 +1,12 @@
-/* General styling */
+/*Google Fonts import*/
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
 
+/* CSS variables */
+:root {
+  --primary-font: "Roboto Serif", "Montserrat", sans-serif;
+  --secondary-font: "Merriweather", sans-serif;
+  --text-color: #333333; /* Dark grey */
+  --primary-color: #4a90e2; /* Soft blue */
+  --secondary-color: #5ac18e; /* Warm green*/
+  --background-color: #f8f8f8; /* Light grey */
+}
