@@ -31,6 +31,11 @@ body {
 
 header {
   background-color: #5ac18e;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99; /* Higher z-index ensures it remians above any other element when scrolling/ also with a z-index value*/
+  width: 100%;
+  box-shadow: 0 2px 2px darkolivegreen;
 }
 
 h1 {
