@@ -10,3 +10,8 @@
   --secondary-color: #5ac18e; /* Warm green*/
   --background-color: #f8f8f8; /* Light grey */
 }
+
+h1, h2 {
+    font-style: var(--primary-font);
+    color: var(--text-color);
+}
