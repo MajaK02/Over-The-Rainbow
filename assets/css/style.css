@@ -24,6 +24,11 @@ header {
   background-color: red;
 }
 
+h1 {
+  font-family: "Montserrat", sans-serif;
+
+}
+
 main {
   background-color: blue;
   /* Make main element take up any surplus space to push footer down */
