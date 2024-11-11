@@ -51,6 +51,15 @@ h1 {
 
 }
 
+#navbar {
+    letter-spacing: 4px;
+    font-size: 110%;
+}
+
+.active {
+    border-bottom: 1px solid var(--text-color);
+}
+
 main {
   background-color: #ffffff;
   /* Make main element take up any surplus space to push footer down */
