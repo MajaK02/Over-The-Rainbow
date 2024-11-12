@@ -29,29 +29,25 @@
   <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
    <body class="d-flex flex-column min-vh-100">
     <header>
-      <a href="index.html"><h1>Over The Rainbow</h1>
-      </a>
+      <a href="index.html"><h1>Over The Rainbow</h1></a>
       <!-- Navbar -->
       <nav id="navbar" class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="index.html">
-          </a>
+          <a class="navbar-brand" href="index.html"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav navbar-nav ms-auto">
-                    <!-- Adding ms-auto alongside flexbox will push navbar links to the right -->
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html"
-                          >Home</a
-                        >
-                      </li>
+            <ul class="navbar-nav ms-auto">
+              <!-- Adding ms-auto alongside flexbox will push navbar links to the right -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
               <li class="nav-item dropdown">
-                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  Advice & Guidance
-                </button>
-                <ul class="dropdown-menu">
+                <a class="nav-link dropdown-toggle" href="#" id="guidanceDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Guidance
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="guidanceDropdown">
                   <li><a class="dropdown-item" href="#">Things affecting your mental health</a></li>
                   <li><a class="dropdown-item" href="#">Treatment Options</a></li>
                   <li><a class="dropdown-item" href="#">Introduction to Mental Health</a></li>
@@ -94,6 +90,50 @@
           </div>
       </section>
   </main>
+
+  <!-- Cards with links to support -->
+  <div class="row">
+    <div class="col-sm-12 col-md-4 mb-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4 mb-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4 mb-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+  <!-- Quote section -->
+  <div class="card">
+    <div class="card-header">
+      Quote
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p>A well-known quote, contained in a blockquote element.</p>
+        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+      </blockquote>
+    </div>
+  </div>
 
     <!-- Footer -->
      <!-- mt-auto added to push footer to the bottom of the page -->

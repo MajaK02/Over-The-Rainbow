@@ -69,23 +69,49 @@ h1 {
   border-bottom: 1px solid var(--text-color);
 }
 
+/* Navbar links */
+.nav-link {
+    padding: 0.5rem 1rem;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--text-color-hover);
+    text-decoration: none;
+}
+
+/* Dropdown toggle */
+.navbar-nav .dropdown-toggle::after {
+    margin-left: 0.5rem;
+}
+
+/* Ensure dropdown menu is styled correctly */
+.dropdown-menu {
+    margin-top: 0;
+}
+
 /* Main content area */
 main {
   flex: 1 0 auto;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
   margin-top: 47px;
 }
 
 /* Hero section */
 #hero {
-  height: 600px;
-  width: 100%;
-  background-color: red; /* Set background color to red */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white; /* Ensure text is readable */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional text shadow for readability */
+    height: 600px;
+    width: 100%;
+    background-image: url("/assets/images/"); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px; /* Add space below the hero section */
 }
 
 /* Footer */
