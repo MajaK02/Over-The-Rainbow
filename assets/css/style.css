@@ -123,9 +123,25 @@ main {
   }
 }
 
+/* Quote section */
+blockquote p {
+  color:var(--text-color)
+}
+
+blockquote-footer {
+  color: var(--text-color); 
+
+}
+
+.quote-section {
+  margin-bottom: 20px; 
+  margin-left: 10px; 
+  margin-right: 10px; 
+}
+
 /* Footer */
 footer {
-  background-color: #5ac18e;
+  background-color: var(--secondary-color);
   flex-shrink: 0;
 }
 
