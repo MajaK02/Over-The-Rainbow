@@ -14,8 +14,8 @@
   --primary-font: "Roboto Serif", "Montserrat", sans-serif;
   --secondary-font: "Merriweather", sans-serif;
   --text-color: #333333; /* Dark grey */
-  --primary-color: #7a9fc2; /* Light Blue*/
-  --secondary-color: #5ac18e; /* Warm green*/
+  --primary-color: #b59882; /* Light brown */
+  --secondary-color: #b59882; /* Warm green*/
   --background-color: #f8f9fa; /* Light grey */ 
 }
 
@@ -39,12 +39,12 @@ body {
 }
 
 header {
-  background-color: #5ac18e;
+  background-color:var(--primary-color);
   padding: 0 1rem;
   position: fixed;
   z-index: 99; /* Higher z-index ensures it remians above any other element when scrolling/ also with a z-index value*/
   width: 100%;
-  box-shadow: 0 2px 2px darkolivegreen;
+  box-shadow: 0 2px 2px #4b4327;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -122,6 +122,19 @@ main {
   background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent overlay */
 }
 
+.hero-contact {
+  padding: 20px 0;
+  background-color: #f8f9fa;
+
+.hero-text {
+  padding: 20px;
+}
+
+.hero-image {
+  text-align: center;
+}
+
+}
 
 .text-box {
   background-color: rgba(255, 255, 255, 0.8);
