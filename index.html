@@ -26,44 +26,31 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-   <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
+  <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
    <body class="d-flex flex-column min-vh-100">
-  
-    <!-- Navigation-->
-    <nav id="navbar" class="navbar navbar-expand-lg">
+    <header>
+      <a href="index.html"><h1>Over The Rainbow</h1></a>
+      <!-- Navbar -->
+      <nav id="navbar" class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="./assets/images/android-chrome-192x192.png" alt="icon" width="30" height="24">
-          </a>
+          <a class="navbar-brand" href="index.html"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav navbar-nav ms-auto">
-                    <!-- Adding ms-auto alongside flexbox will push navbar links to the right -->
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html"
-                          >Home</a
-                        >
-                      </li>
-              <li class="nav-item dropdown">
-                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  Advice & Guidance
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Things affecting your mental health</a></li>
-                  <li><a class="dropdown-item" href="#">Treatment Options</a></li>
-                  <li><a class="dropdown-item" href="#">Introduction to Mental Health</a></li>
-                </ul>
+            <ul class="navbar-nav ms-auto">
+              <!-- Adding ms-auto alongside flexbox will push navbar links to the right -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item dropdown">
-                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  Get Involved
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Volunteering</a></li>
-                  <li><a class="dropdown-item" href="#">Policies</a></li>
-                  <li><a class="dropdown-item" href="#">Mental Health Events</a></li>
+                <a class="nav-link dropdown-toggle guidance-dropdown" href="#" id="guidanceDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Guidance
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="guidanceDropdown">
+                  <li><a class="dropdown-item" href="https://www.mentalhealth.org.uk/explore-mental-health/factors-affect-mental-health" target="_blank">Things affecting your mental health</a></li>
+                  <li><a class="dropdown-item" href="https://www.mind.org.uk/information-support/drugs-and-treatments/" target="_blank">Treatment Options</a></li>
+                  <li><a class="dropdown-item" href="https://www.mentalhealth.org.uk/explore-mental-health" target="_blank">Introduction to Mental Health</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -73,43 +60,99 @@
           </div>
         </div>
       </nav>
-       
+    </header>
+   
 
-            
-    
-      
-
-     <!-- Header -->
-     <header id="header" class="container section mt-4">
-        <div class="row">
-          <div class="col-12 col-xl-6 text-center text-xl-start">
-            <!-- text center will center text on all screen sizes/ text-xl-start will align all text to the left on xl-screens -->
-            <h1 class="display-3">
-                <strong>Discover the Rainbow Within</strong>
-            </h1>
-            <p class="lead display-6 sub-heading color">
-                Your Path to Brighter Minds & Better Days
-            </p>
-            <p class="my-4">
-                Welcome to Over the Rainbow: Your Safe Haven for Mental Wellness. Here, we believe that every journey to mental health is unique and beautiful. 
-                Join us as we explore resources, support, and guidance to help you find your colors in life's challenges. 
-                Together, we'll navigate the storms and celebrate the rainbows.
-
-                Welcome to Over the Rainbow: A Journey to Healing and Hope. Just as rainbows emerge after storms, we believe that brighter days are possible for everyone. 
-                Here, you'll find a supportive community, valuable resources, and guidance to help you navigate life's challenges. 
-                Together, let's explore the vibrant colors of mental wellness and discover the beauty that lies beyond.
-            </p>
+    <!-- Main -->
+    <main>
+      <section class="hero">
+        <div class="container-fluid p-0">
+          <div class="hero-content">
+            <div class="text-box">
+              <h1 class="display-4">Your Path to Brighter Minds & Better Days</h1>
+              <p class="lead">Welcome to Over the Rainbow: A Journey to Healing and Hope.
+                Just as rainbows emerge after storms, we believe that brighter days are possible for everyone.
+               <br><br> Join us as we explore resources, support, and guidance to help you navigate life's challenges. Together, we'll navigate the storms and celebrate the rainbows.</p>
+              <a href="https://www.samaritans.org/how-we-can-help/if-youre-having-difficult-time/" class="btn btn-light">Need Urgent Help?</a>
+            </div>
           </div>
-          <div class="col-12 col-xl-6">
+        </div>
+  </main>
 
+    <!-- Quote section -->
+    <div class="card quote-section">
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p><strong>“There is hope, even when your brain tells you there isn’t.”</strong></p>
+          <p class="blockquote-footer">John Green</p>
+        </blockquote>
+      </div>
+    </div>
+  
 
-    <!-- Quote row -->
+  <!-- Cards with links to support -->
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-4 mb-3">
+      <div class="card h-100"> <!-- Apply the h-100 class to each card to make them all the same height -->
+        <div class="card-body d-flex flex-column"> <!-- Use d-flex flex-column on the card body to create a flex container -->
+          <h5 class="card-title"><strong>Mental Health Awareness Week</strong></h5>
+          <p class="card-text flex-grow-1">Mental Health Awareness Week runs from 13 to 19 May 2024. Take part in raising awareness and funding so that everyone can get the support they need!</p> <!-- Apply flex-grow-1 to the card text to allow it to expand and fill available space -->
+          <a href="https://www.mind.org.uk/get-involved/mental-health-awareness-week/" target="_blank" class="btn btn-outline-dark btn-lg mt-auto"><i class="fa-solid fa-paper-plane"></i></a> <!-- Use mt-auto on the button to push it to the bottom of the card -->
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4 mb-3">
+      <div class="card h-100">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title"><strong>Fundraising</strong></h5>
+          <p class="card-text flex-grow-1">Every pound helps when it comes to funding mental health treatments and research. Do your part this month, by taking part in a fundraising campaign or going freestyle and raising money your way - the world is your stage!</p>
+          <a href="https://www.mentalhealth.org.uk/get-involved/fundraising" target="_blank" class="btn btn-outline-dark btn-lg mt-auto"><i class="fa-solid fa-paper-plane"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4 mb-3">
+      <div class="card h-100">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title"><strong>Research</strong></h5>
+          <p class="card-text flex-grow-1">Want to delve deeper into current mental health research, browse our library of research and programmes currently making headway in the sector.</p>
+          <a href="https://www.mentalhealth.org.uk/our-work/research" target="_blank" class="btn btn-outline-dark btn-lg mt-auto"><i class="fa-solid fa-paper-plane"></i></a> <!-- Use mt-auto on the button to push it to the bottom of the card -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     <!-- Footer -->
+     <!-- mt-auto added to push footer to the bottom of the page -->
+    <footer class="mt-auto">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12"></div>
+        <ul id="social-networks">
+          <li>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                  aria-label="Visit our Facebook page (opens in a new tab)">
+                  <i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+              <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                  aria-label="Visit our Twitter page (opens in a new tab)">
+                  <i class="fa-brands fa-twitter-square"></i></a>
+          </li>
+          <li>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                  aria-label="Visit our Instagram page (opens in a new tab)">
+                  <i class="fa-brands fa-instagram"></i></a>
+          </li>
+      </ul>
+    </div>
+      
+  </footer>
 
-
-
-
+  <!-- Font Awesome kit -->
+  <script src="https://kit.fontawesome.com/f4d3164857.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap JS -->
     <script
@@ -117,5 +160,6 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"
   ></script>
+
   </body>
 </html>
