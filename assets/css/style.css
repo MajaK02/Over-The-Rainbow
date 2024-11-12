@@ -137,7 +137,7 @@ main {
 }
 
 .text-box {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 2rem;
   border-radius: 10px;
   text-align: center;
@@ -157,45 +157,20 @@ main {
 }
 
 /* Quote section */
-
-.card-header {
-  background-color: var(--secondary-color);
-
+.quote-section {
+  background-color: var(--secondary-color); 
+  width: 100vw; /* Make it full width */
+  margin-left: calc(-50vw + 50%); /* Center align the full-width element */
+  padding: 20px; 
+  box-sizing: border-box; /* Ensure padding is included in the width */
 }
 
 blockquote p {
-  color:var(--text-color)
+  color: var(--text-color); /* Set text color */
 }
 
-blockquote-footer {
-  color: var(--text-color); 
-
-}
-
-.quote-section {
-  margin-bottom: 20px; 
-  margin-left: 10px; 
-  margin-right: 10px; 
-}
-
-/* Footer */
-footer {
-  background-color: var(--secondary-color);
-  flex-shrink: 0;
-}
-
-#social-networks {
-  text-align: center;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-}
-
-#social-networks i {
-  font-size: 160%;
-  padding: 5%;
-  color: var(--text-color);
+.blockquote-footer {
+  color: var(--text-color); /* Set footer text color */
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -230,10 +205,97 @@ footer {
   }
 }
 
+
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
   #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
   }
 }
+
+
+/* Other existing styles */
+.hero-image {
+  text-align: center;
+}
+
+.hero-img {
+  width: 100%; 
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure it doesn't exceed the container width */
+}
+
+@media (max-width: 991px) {
+  .hero {
+    padding: 40px 0;
+  }
+  
+  .hero-text {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+/* Quote section */
+
+.card-quote-section {
+  background-color: var(--secondary-color);
+}
+blockquote p {
+  color: var(--text-color);
+}
+
+.blockquote-footer {
+  color: var(--text-color);
+}
+
+.quote-section {
+  margin-top: 40px; 
+  margin-bottom: 20px; 
+  padding-left: 20px; 
+  padding-right: 20px; 
+}
+
+
+/* Footer */
+footer {
+  background-color: var(--secondary-color);
+  flex-shrink: 0;
+}
+
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: var(--text-color);
+}
+
+/* Footer */
+footer {
+  background-color: var(--secondary-color);
+  flex-shrink: 0;
+}
+/* Header title */
+.header-title {
+  margin-top: 10px; 
+}
+
+/* Card Section - HomePage*/
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text {
+  flex-grow: 1;
+}
+
 

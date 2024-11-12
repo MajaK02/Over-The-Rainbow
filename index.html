@@ -44,13 +44,13 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="guidanceDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle guidance-dropdown" href="#" id="guidanceDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Guidance
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="guidanceDropdown">
-                  <li><a class="dropdown-item" href="#">Things affecting your mental health</a></li>
-                  <li><a class="dropdown-item" href="#">Treatment Options</a></li>
-                  <li><a class="dropdown-item" href="#">Introduction to Mental Health</a></li>
+                  <li><a class="dropdown-item" href="https://www.mentalhealth.org.uk/explore-mental-health/factors-affect-mental-health" target="_blank">Things affecting your mental health</a></li>
+                  <li><a class="dropdown-item" href="https://www.mind.org.uk/information-support/drugs-and-treatments/" target="_blank">Treatment Options</a></li>
+                  <li><a class="dropdown-item" href="https://www.mentalhealth.org.uk/explore-mental-health" target="_blank">Introduction to Mental Health</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -73,7 +73,7 @@
               <p>Welcome to Over the Rainbow: A Journey to Healing and Hope.
                 Just as rainbows emerge after storms, we believe that brighter days are possible for everyone.
                <br><br> Join us as we explore resources, support, and guidance to help you navigate life's challenges. Together, we'll navigate the storms and celebrate the rainbows.</p>
-              <a href="#" class="btn btn-primary">Need Urgent Help?</a>
+              <a href="https://www.samaritans.org/how-we-can-help/if-youre-having-difficult-time/" class="btn btn-light">Need Urgent Help?</a>
             </div>
           </div>
         </div>
@@ -81,7 +81,6 @@
 
     <!-- Quote section -->
     <div class="card quote-section">
-      <div class="card-header"><h5><strong>Quote of the Week</strong></h5></div>
       <div class="card-body">
         <blockquote class="blockquote mb-0">
           <p>“There is hope, even when your brain tells you there isn’t.” </p>
@@ -92,34 +91,36 @@
   
 
   <!-- Cards with links to support -->
+  <div class="container">
   <div class="row">
     <div class="col-sm-12 col-md-4 mb-3">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="card h-100"> <!-- Apply the h-100 class to each card to make them all the same height -->
+        <div class="card-body d-flex flex-column"> <!-- Use d-flex flex-column on the card body to create a flex container -->
+          <h5 class="card-title"><strong>Mental Health Awareness Week</strong></h5>
+          <p class="card-text flex-grow-1">Mental Health Awareness Week runs from 13 to 19 May 2024. Take part in raising awareness and funding so that everyone can get the support they need!</p> <!-- Apply flex-grow-1 to the card text to allow it to expand and fill available space -->
+          <a href="https://www.mind.org.uk/get-involved/mental-health-awareness-week/" target="_blank" class="btn btn-outline-dark btn-lg mt-auto"><i class="fa-solid fa-paper-plane"></i></a> <!-- Use mt-auto on the button to push it to the bottom of the card -->
         </div>
       </div>
     </div>
     <div class="col-sm-12 col-md-4 mb-3">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="card h-100">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title"><strong>Fundraising</strong></h5>
+          <p class="card-text flex-grow-1">Every pound helps when it comes to funding mental health treatments and research. Do your part this month, by taking part in a fundraising campaign or going freestyle and raising money your way - the world is your stage!</p>
+          <a href="https://www.mentalhealth.org.uk/get-involved/fundraising" target="_blank" class="btn btn-outline-dark btn-lg mt-auto"><i class="fa-solid fa-paper-plane"></i></a>
         </div>
       </div>
     </div>
     <div class="col-sm-12 col-md-4 mb-3">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="card h-100">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title"><strong>Research</strong></h5>
+          <p class="card-text flex-grow-1">Want to delve deeper into current mental health research, browse our library of research and programmes currently making headway in the sector.</p>
+          <a href="https://www.mentalhealth.org.uk/our-work/research" target="_blank" class="btn btn-outline-dark btn-lg mt-auto"><i class="fa-solid fa-paper-plane"></i></a> <!-- Use mt-auto on the button to push it to the bottom of the card -->
         </div>
       </div>
     </div>
+  </div>
 </div>
 
 
