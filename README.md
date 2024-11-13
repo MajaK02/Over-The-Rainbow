@@ -12,7 +12,7 @@ Over the Rainbow is my first portfolio project developed as part of the Code Ins
 Welcome to Over the rainbow! Your go to, beginner-friendly website for all mental health rersources. This site hopes to be a starting point for anyone beginning the journey into mental  wellness; whether they are seeking treatments options,  infromation about current research & campaigns or wanting to get invovled in fundraising, over the rainbow aims to be the hub of all this current information in a beginner-friendly format. 
 
 ![Responsice Mockup](/docs/screenshots/hero-image.png) 
-![mobile](/docs/screenshots/mobile.png)
+<p align="center">![mobile](/docs/screenshots/mobile.png)</p>
 
 ## UX Design
 
