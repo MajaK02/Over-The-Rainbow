@@ -131,23 +131,22 @@ This included regular debugging and testing using the Dev Tools provided within 
 ![W3C validation](/docs/screenshots/validation.png)
   
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - one error was found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmajak02.github.io%2FOver-The-Rainbow%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - namely a parse error for my hero image, however this remians unresolved as I could not debug this due to time constraints. 
  
   ### Lighthouse testing
-  
+Official lighthouse testing of my site revealed a 97% performance score with a 93% accessibility score.
+
   ![lighthouse](/docs/screenshots/lighthouse-report.png)
 
 ### Unfixed Bugs
 
-This project experienced some unresolved bugs, including the navbar dropdown button ('Guidance'), card sizing on the contact-us page and the hero image on the landing page. 
+This project experienced some unresolved bugs regarding the navbar dropdown button ('Guidance'). 
 
 __Navigation Dropdown__ 
   The navigation dropdown button appears to work as intended on the tablet size. While the navbar is responsive across all devices, the dropdown remains white, rather than being the color of the navbar (light brown) and it slightly extends beyond the screen size, cutting of the right hand size of the dropdown box. 
 
   - I have attempted to debug this issue using copilot, perplexity.ai and Chrome Devtools, however at this moment in time it remains unresolved. 
 
-  __Hero image__ 
-  Once deployed, the hero image on the main landing page does not appear. 
 
 ## Deployment
 
