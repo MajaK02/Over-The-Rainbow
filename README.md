@@ -5,7 +5,7 @@ Link to webiste: https://majak02.github.io/Over-The-Rainbow/index.html
 # Over The Rainbow
 
 ## Introduction
-Welcome to Over the rainbow! Your go to, beginner-friendly website for all mental health rersources. This site hopes to be a starting point for anyone beginning the journey into mental  wellness; whether they are seeking treatments options,  infromation about current research & campaigns or wanting to get invovled in fundraising, over the rainbow aims to be the hub of all this current information in a beginner-firnedly format. 
+Welcome to Over the rainbow! Your go to, beginner-friendly website for all mental health rersources. This site hopes to be a starting point for anyone beginning the journey into mental  wellness; whether they are seeking treatments options,  infromation about current research & campaigns or wanting to get invovled in fundraising, over the rainbow aims to be the hub of all this current information in a beginner-friendly format. 
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
@@ -20,7 +20,7 @@ In this section, you should go over the different parts of your project, and des
   - Featured on the homepage and contact us pages, the full responsive navigation bar includes links to the website text [logo] which when clicked returns th euser back to the landing page, a direct Home page link, a contact us page and a guidance toggle link - which contains links dirctly to informative pages on Mind.org (Introduction to Mental Health, factors which may be impacting mental health and then a directro of currntly available treatment options). This navigation layout is identical on both the homepage and contact us page to allow for easy navigation.
   - I opted for a neutral, natural color scheme, in order to not overwhelm the users with bright colors or overwhelming information. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](/docs/screenshots/navbar.png)
 
 - __The landing page image__
 
@@ -36,7 +36,7 @@ In this section, you should go over the different parts of your project, and des
 
   - The footer section includes links to the relevant social media sites for 'Over The Rainbow'. The links will open to a new tab to allow easy navigation for the user and icons (used from font awesome) reflect the associated social media logo, ensuring easy navigation. 
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](/docs/screenshots/footer.png)
 
 
 
