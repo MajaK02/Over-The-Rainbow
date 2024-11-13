@@ -11,7 +11,8 @@ Over the Rainbow is my first portfolio project developed as part of the Code Ins
 ## Introduction
 Welcome to Over the rainbow! Your go to, beginner-friendly website for all mental health rersources. This site hopes to be a starting point for anyone beginning the journey into mental  wellness; whether they are seeking treatments options,  infromation about current research & campaigns or wanting to get invovled in fundraising, over the rainbow aims to be the hub of all this current information in a beginner-friendly format. 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](/docs/screenshots/hero-image.png) 
+![mobile](/docs/screenshots/mobile.png)
 
 ## UX Design
 
@@ -107,6 +108,13 @@ __Advice Cards__
  __Landing page__
 
  For the contact us page, I implemented an alternative hero design - the image being on the right hand side and the text opposite. This was in line with the user story board expectations of an easily navigatable, clean designed website. 
+ ![landing](/docs/screenshots/contact-us-hero.png)
+
+ __Contact Us cards__
+
+ For the contact us page, I opted to use cards with images rather than text only. This is aimed to help direct users and catch their attention when it came to seeking specific support. 
+
+ ![cards](/docs/screenshots/contact-us-cards)
 
 ## Testing 
 
@@ -124,6 +132,10 @@ This included regular debugging and testing using the Dev Tools provided within 
   
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+ 
+  ### Lighthouse testing
+  
+  ![lighthouse](/docs/screenshots/lighthouse-report.png)
 
 ### Unfixed Bugs
 
