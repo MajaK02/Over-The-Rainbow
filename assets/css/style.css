@@ -15,7 +15,7 @@
   --secondary-font: "Merriweather", sans-serif;
   --text-color: #333333; /* Dark grey */
   --primary-color: #b59882; /* Light brown */
-  --secondary-color: #b59882; /* Warm green*/
+  --secondary-color: #b59882; /* Light brown */
   --background-color: #f8f9fa; /* Light grey */ 
 }
 
@@ -96,7 +96,6 @@ h1 {
 /* Main content area */
 main {
   flex: 1 0 auto;
-  /*background-color: #ffffff;*/
   margin-top: 47px;
 }
 
@@ -372,7 +371,7 @@ blockquote p {
 footer {
   background-color: var(--secondary-color);
   flex-shrink: 0;
-  margin-top: 40px; /* Adjust the value as needed */
+  margin-top: 40px; 
 }
 
 #social-networks {
