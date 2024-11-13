@@ -47,9 +47,9 @@ To initially generate a color scheme idea, perplexity.ai was used to formulate s
 
 While the main palette includes the above colors, in practice the project employed mainly:
 
---text-color: #333333; /* Dark grey */
---primary-color: #b59882; /* Light brown */
---background-color: #f8f9fa; /* Light grey */ 
+- --text-color: #333333; /* Dark grey */
+- --primary-color: #b59882; /* Light brown */
+- --background-color: #f8f9fa; /* Light grey */ 
 
 ## Fonts
 
