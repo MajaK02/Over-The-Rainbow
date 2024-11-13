@@ -1,6 +1,9 @@
-Link to webiste: https://majak02.github.io/Over-The-Rainbow/index.html
 
 
+
+<p align="center">
+| <a href="https://majak02.github.io/Over-The-Rainbow/index.html" target="_blank">Link to Project</a> |
+</p>
 
 # Over The Rainbow
 
