@@ -137,7 +137,7 @@ This included regular debugging and testing using the Dev Tools provided within 
   ### Lighthouse testing
 Official lighthouse testing of my site revealed a 97% performance score with a 93% accessibility score.
 
-  ![lighthouse](/docs/screenshots/lighthouse-report.png)
+  ![lighthouse](/docs/lighthouse-report.png)
 
 ### Unfixed Bugs
 
