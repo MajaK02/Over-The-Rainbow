@@ -24,7 +24,7 @@ In this section, you should go over the different parts of your project, and des
 
 - The dropdown button on the navbar was created using Bootstrap v5 Dropdowns (https://getbootstrap.com/docs/5.3/components/dropdowns/)
 
-![Dropdown Nav Bar](/docs/screenshots/nav-dropdown.pgn)
+![Dropdown Nav Bar](docs/screenshots/nav-dropdown.png)
 
 - __The landing page image__
 
