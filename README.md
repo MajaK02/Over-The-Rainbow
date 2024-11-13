@@ -5,11 +5,7 @@ Link to webiste: https://majak02.github.io/Over-The-Rainbow/index.html
 # Over The Rainbow
 
 ## Introduction
-Welcome to Over the rainbow! Your go to, beginner-friendly website for all mental health rersources. This site hopes to be a starting point for anyone beginning the journey into mentla  wellness; whether they are seeking treatments options,  
-
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+Welcome to Over the rainbow! Your go to, beginner-friendly website for all mental health rersources. This site hopes to be a starting point for anyone beginning the journey into mental  wellness; whether they are seeking treatments options,  infromation about current research & campaigns or wanting to get invovled in fundraising, over the rainbow aims to be the hub of all this current information in a beginner-firnedly format. 
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
@@ -21,8 +17,8 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on the homepage and contact us pages, the full responsive navigation bar includes links to the website text [logo] which when clicked returns th euser back to the landing page, a direct Home page link, a contact us page and a guidance toggle link - which contains links dirctly to informative pages on Mind.org (Introduction to Mental Health, factors which may be impacting mental health and then a directro of currntly available treatment options). This navigation layout is identical on both the homepage and contact us page to allow for easy navigation.
+  - I opted for a neutral, natural color scheme, in order to not overwhelm the users with bright colors or overwhelming information. 
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
