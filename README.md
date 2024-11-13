@@ -17,10 +17,14 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation Bar__
 
-  - Featured on the homepage and contact us pages, the full responsive navigation bar includes links to the website text [logo] which when clicked returns th euser back to the landing page, a direct Home page link, a contact us page and a guidance toggle link - which contains links dirctly to informative pages on Mind.org (Introduction to Mental Health, factors which may be impacting mental health and then a directro of currntly available treatment options). This navigation layout is identical on both the homepage and contact us page to allow for easy navigation.
+  - Featured on the homepage and contact us pages, the full responsive navigation bar includes links to the website text [logo] which when clicked returns the user back to the landing page, a direct Home page link, a contact us page and a guidance toggle link - which contains links directly to informative pages on Mind.org (Introduction to Mental Health, factors which may be impacting mental health and then a directro of currntly available treatment options). This navigation layout is identical on both the homepage and contact us page to allow for easy navigation.
   - I opted for a neutral, natural color scheme, in order to not overwhelm the users with bright colors or overwhelming information. 
 
 ![Nav Bar](/docs/screenshots/navbar.png)
+
+- The dropdown button on the navbar was created using Bootstrap v5 Dropdowns (https://getbootstrap.com/docs/5.3/components/dropdowns/)
+
+![Dropdown Nav Bar](/docs/screenshots/nav-dropdown.pgn)
 
 - __The landing page image__
 
@@ -40,7 +44,6 @@ In this section, you should go over the different parts of your project, and des
 
 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
 
 
