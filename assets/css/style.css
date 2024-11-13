@@ -83,14 +83,13 @@ h1 {
     text-decoration: none;
 }
 
-/* Dropdown toggle */
-.navbar-nav .dropdown-toggle::after {
-    margin-left: 0.5rem;
+.navbar .nav-link {
+  padding: 0.5rem 1rem; /* Adjust padding to match other links */
+  font-size: 1rem; /* Adjust font size to match other links */
 }
 
-/* Ensure dropdown menu is styled correctly */
-.dropdown-menu {
-    margin-top: 0;
+.navbar .dropdown-toggle::after {
+  margin-left: 0.5rem; /* Adjust spacing for the dropdown icon */
 }
 
 /* Main content area */
@@ -313,8 +312,6 @@ blockquote p {
   }
 }
 
-
-
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
   #menu a:hover {
@@ -371,7 +368,6 @@ blockquote p {
 footer {
   background-color: var(--secondary-color);
   flex-shrink: 0;
-  margin-top: 40px; 
 }
 
 #social-networks {
