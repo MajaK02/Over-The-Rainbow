@@ -36,8 +36,17 @@ In this section, you should go over the different parts of your project, and des
 
 ![Landing Page](/docs/screenshots/hero-image.png)
 
+__Quote Section__
+- Inspired by the official Mind.org website, I also included a quote section as an optical breakpoint/separation between the hero section and the included cards containing information and linkns to other resources/pages.
+- This was created using Bootstrap v5 typography [blockquotes] (https://getbootstrap.com/docs/5.3/content/typography/#blockquotes)
 
+![quote](/docs/screenshots/quote.png)
 
+__Advice Cards__
+- Using Bootstrap v5 card design components (https://getbootstrap.com/docs/5.3/components/card/), I opted for a simpler design [plain white box with text only] due to the hero image already creating enough visual representation and color for the landing page - any more would be slightly too overwhelming for users, particularly those with sensitivity.
+- I did alter the link buttons to be icons rather than text to 1. add creativity to the page and 2. reduce the amount of text within the cards from making it look cluttered. Utilizing a simpler, lined design icon (airplane icon from Font Awesome) remains as a clear, explicit icon encouraging users to click it without using block-like buttons.
+
+![card](/docs/screenshots/homepage-cards.png)
 
 - __The Footer__ 
 
