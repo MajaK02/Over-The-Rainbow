@@ -55,9 +55,11 @@ As with color, font was a big consideration for ensuring a positive user experie
 Three sans-serif fonts were selected for the project, and implemented via [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
 
 __Headings__
+<br>
 [Roboto Serif](https://fonts.google.com/specimen/Roboto+Serif) and [Montserrat](https://fonts.google.com/specimen/Prompt) serve as clear, readable fonts to be used within logos and headings.
 
 __Body__
+<br>
 [Merriweather](https://fonts.google.com/specimen/Merriweather) Merriweather was designed to be a text face that is pleasant to read on screens and therefore incorporated as a font of choice for the body text.
 
 ## Features 
