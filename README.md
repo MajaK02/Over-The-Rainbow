@@ -27,7 +27,7 @@ In this section, you should go over the different parts of your project, and des
   - The landing includes a photograph of a woman with text overlay to allow the user to see exactly what information this website applies to. Below the text I've included an 'Urgent Help?' button to immedietly offer a link to urgent support should they need it (Samaritans website). 
   
 
-![Landing Page](/docs......)
+![Landing Page](/docs/screenshots/hero-image.png)
 
 
 
