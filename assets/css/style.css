@@ -304,6 +304,7 @@ blockquote p {
   main {
     /* Push main content down to accommodate larger header */
     margin-top: 79px;
+    padding-bottom: 2rem; /* Adjust the value as needed */
   }
 }
 
@@ -400,3 +401,6 @@ footer {
 }
 
 
+.card-container {
+  margin-bottom: 2rem; /* Adjust the value as needed */
+}
