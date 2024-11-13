@@ -14,8 +14,6 @@ Welcome to Over the rainbow! Your go to, beginner-friendly website for all menta
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - __Navigation Bar__
@@ -56,13 +54,6 @@ __Advice Cards__
 
 
 
-
-
-
-### Features Left to Implement
-
-- Another feature idea
-
 ## Testing 
 
 Testing and validation of this website was carried out throughout the course of the project.
@@ -82,56 +73,53 @@ This included regular debugging and testing using the Dev Tools provided within 
 
 ### Unfixed Bugs
 
-This project expereinced some unresolved bugs, including the navbar dropdown button ('Guidance') and the hero image on the landing page. 
+This project experienced some unresolved bugs, including the navbar dropdown button ('Guidance'), card sizing on the contact-us page and the hero image on the landing page. 
 
-- Navigation Dropdown
-  The navigation dropdown
+__Navigation Dropdown__ 
+  The navigation dropdown button appears to work as intended on the tablet size. While the navbar is responsive across all devices, the dropdown remains white, rather than being the color of the navbar (light brown) and it slightly extends beyond the screen size, cutting of the right hand size of the dropdown box. 
+
+  - I have attempted to debug this issue using copilot, perplexity.ai and Chrome Devtools, however at this moment in time it remains unresolved. 
+
+  __Contact us card sizing__ 
+  The 4 cards on the contact us page have no space between their end and the top of the footer. This has been altered and worked on using copilot and perplexity.ai however while the three cards on the homepage work as intended, these 4 do not. 
+
+  __Hero image__ 
+  Once deployed, the hero image on the main landing page does not appear. 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+This GitHub project was created using the Code Institute Template ensuring all necessary extensions were included when opening within the designated workspace on the Gitpod Desktop IDE.
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch ['Main']
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live website for this project can be found at: https://majak02.github.io/Over-The-Rainbow/ 
+
+Additional information on the deployment process can be found on the official GitHub Docs
 
 
 ## Credits 
+__Code and Content__
+Project and primary learning supplied by Code Institute
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+Supplemental learning resources directly used / referenced within the project:
+- Bootstrap 5 Docs
+- CSS Variables - The var() function
+- The text for the home and contact us pages hero section was generated and adapted from perplexity.ai, as well as being used as a debugging tool.
+- Code Institute Boardwalk games and Love Running walkthrough code used to as a basis for this project.
+- Mind, Samaritans, Mental Health Foundation, Shout, Rethink and FearFree were all used to provide information on resources, support and existing mental health guidelines used within the website and its associated links.
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- Hero images on both the Home and contact us pages and all card images were created by Freepik (https://www.freepik.com/)
+- The icons in the footer and for the card buttons were taken from [Font Awesome](https://fontawesome.com/)
+- Favicon was generated from iconify (https://iconify.design/) 
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
-## Other General Project Advice
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
 
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
