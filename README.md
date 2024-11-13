@@ -6,11 +6,59 @@
 </p>
 
 # Over The Rainbow
+Over the Rainbow is my first portfolio project developed as part of the Code Institute Full Stack Software Developer Bootcamp, consisting of learning outcomes to utilise HTML5, CSS3 & Bootstrap in order to fulfil the necessary requirements for the brief provided about Mental Health.
 
 ## Introduction
 Welcome to Over the rainbow! Your go to, beginner-friendly website for all mental health rersources. This site hopes to be a starting point for anyone beginning the journey into mental  wellness; whether they are seeking treatments options,  infromation about current research & campaigns or wanting to get invovled in fundraising, over the rainbow aims to be the hub of all this current information in a beginner-friendly format. 
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+
+## UX Design
+
+## User Stories 
+As a user with attention difficulties, I want the website to have a clean, uncluttered design with clear headings and short paragraphs, so I can focus on the content without getting overwhelmed.
+
+As a user, I can easily locate the contact us form so that I can get in touch with the service provided.
+
+As a user with limited tech skills, I want intuitive navigation and clearly labeled buttons, so I can easily find the information I need without frustration.
+
+As someone new to therapy, I want to see clear explanations of different types of mental health treatments, so I can make an informed decision about what might work best for me.
+
+As someone unsure about seeking help, I want to read relatable stories from people who have benefited from mental health support, so I can feel more comfortable taking the next step.
+
+## Colors
+
+Color selection is key when it comes to enticing users to visit and remain on any website, and with mental health have so many inclusion and accesibility criteria, this color selection was of particular importance. 
+
+To initially generate a color scheme idea, perplexity.ai was used to formulate some initial palettes. However after beginning the project, this color scheme was deemed lacking, and coolors (https://coolors.co/) was used to generate an appropriate color palette from my hero image. This resulted in an appropriate color scheme that is aesthetically pleasing, neutral whilst being both calming and engaging without overwhelming users. 
+
+### Main Palette
+
+--lion: #C29466ff;
+--gray: #72797Eff;
+--tan: #E0B993ff;
+--dun: #E7CDB0ff;
+--lion-2: #B59882ff;
+
+![colors](/docs/screenshots/color-palette-2.png)
+
+
+While the main palette includes the above colors, in practice the project employed mainly:
+
+--text-color: #333333; /* Dark grey */
+--primary-color: #b59882; /* Light brown */
+--background-color: #f8f9fa; /* Light grey */ 
+
+## Fonts
+
+As with color, font was a big consideration for ensuring a positive user experience whilst visiting the page.<br>
+Three sans-serif fonts were selected for the project, and implemented via [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
+
+__Headings__
+[Roboto Serif](https://fonts.google.com/specimen/Roboto+Serif) and [Montserrat](https://fonts.google.com/specimen/Prompt) serve as clear, readable fonts to be used within logos and headings.
+
+__Body__
+[Merriweather](https://fonts.google.com/specimen/Merriweather) Merriweather was designed to be a text face that is pleasant to read on screens and therefore incorporated as a font of choice for the body text.
 
 ## Features 
 
@@ -52,7 +100,11 @@ __Advice Cards__
 
 ![Footer](/docs/screenshots/footer.png)
 
+### Contact Us page
 
+ __Landing page__
+
+ For the contact us page, I implemented an alternative hero design - the image being on the right hand side and the text opposite. This was in line with the user story board expectations of an easily navigatable, clean designed website. 
 
 ## Testing 
 
@@ -79,9 +131,6 @@ __Navigation Dropdown__
   The navigation dropdown button appears to work as intended on the tablet size. While the navbar is responsive across all devices, the dropdown remains white, rather than being the color of the navbar (light brown) and it slightly extends beyond the screen size, cutting of the right hand size of the dropdown box. 
 
   - I have attempted to debug this issue using copilot, perplexity.ai and Chrome Devtools, however at this moment in time it remains unresolved. 
-
-  __Contact us card sizing__ 
-  The 4 cards on the contact us page have no space between their end and the top of the footer. This has been altered and worked on using copilot and perplexity.ai however while the three cards on the homepage work as intended, these 4 do not. 
 
   __Hero image__ 
   Once deployed, the hero image on the main landing page does not appear. 
@@ -117,7 +166,8 @@ Supplemental learning resources directly used / referenced within the project:
 
 - Hero images on both the Home and contact us pages and all card images were created by Freepik (https://www.freepik.com/)
 - The icons in the footer and for the card buttons were taken from [Font Awesome](https://fontawesome.com/)
-- Favicon was generated from iconify (https://iconify.design/) 
+- Favicon was generated from iconify (https://iconify.design/)
+- Fonts used were generated by Perplexity.ai and incorporated through Google Fonts (https://fonts.google.com/)
 
 
 
