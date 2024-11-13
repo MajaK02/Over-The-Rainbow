@@ -115,7 +115,7 @@ __Advice Cards__
 
  For the contact us page, I opted to use cards with images rather than text only. This is aimed to help direct users and catch their attention when it came to seeking specific support. 
 
- ![cards](/docs/screenshots/contact-us-cards)
+ ![cards](/docs/screenshots/contact-us-cards.png)
 
 ## Testing 
 
